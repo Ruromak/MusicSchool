@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Music School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="topnav-right"><a href="#signin">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+      <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Learn to play piano</h1>
+                    <h1 class="large">For everybody</h1>
+                </div>
+                <form>
+                    <div class="leftSide-col login">
+                        <h2>Username</h2>
+                        <input class="inputbox" name="username" 
+                        type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" name="password" 
+                        type="text" placeholder="Password">
+                    </div>
+                </form>
+           </div>
+
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <div class="videoContainer">
+                        <iframe width="400" height="240" 
+                        src="https://www.youtube.com/embed/4GIfRazbZh8"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+      </div>
+    </div>
+
+    <header>
+        <h1 class="section2Header">Our Educational Programmes</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Logo.png" alt="Logo">
+                    </div>
+                    <label>Piano course</label>
+                    <p>This section consists of ten online piano lessons for
+                        newcomers that will take you from zero to playing great
+                        hits with both hands. This is something.
+                    </p>
+                </div>              
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Logo.png" alt="Logo">
+                    </div>
+                    <label>Guitar course</label>
+                    <p>The course begins simply with the parts 
+                        of the guitar, the names of the strings,
+                        tuning, and ... knowledge necessary to 
+                        pursue most intermediate guitar courses.
+                    </p>
+                </div>              
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="Logo.png" alt="Logo">
+                    </div>
+                    <label>Flute course</label>
+                    <p>Taught by the legendary flute master Sir 
+                        James Galway, First Flute is an online 
+                        interactive series of lessons geared for 
+                        flute students of all ages.
+                    </p>
+                </div>              
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-12">
+                <button class="Learn-button">Learn More</button>
+            </div>
+        </div>
+    
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Music education is a field of practice,
+                        in which educators are trained for careers 
+                        as elementary or secondary music teachers, school
+                        or music conservatory ensemble directors. As well,
+                        music education is a research area in which scholars 
+                        do original research on ways of teaching 
+                        and learning music.
+                        Music education scholars publish their findings 
+                        in peer-reviewed journals, and teach undergraduate 
+                        and graduate education students at university education
+                        or music schools, who are training to become music teachers.</p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="iOS-pic">
+                    <img src="iOS_pic.png" alt="iOS_pic">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footmain">
+        <div class="row">
+            
+            <div class="col-3 mobileStack">
+                <h1>School</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Chats</li>
+                    <li>Directions</li>
+                </ul>
+            </div>
+            
+            <div class="col-3 mobileStack">
+                <h1>School</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Chats</li>
+                    <li>Directions</li>
+                </ul>
+            </div>
+            
+            <div class="col-3 mobileStack">
+                <h1>School</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Chats</li>
+                    <li>Directions</li>
+                </ul>
+            </div>
+            
+            <div class="col-3 mobileStack">
+                <h1>School</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Chats</li>
+                    <li>Directions</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+    
+
+    <script>
+        function dropdownMenu() {
+           var x = document.getElementById("dropdownClick");
+           if (x.className === "topnav") {
+               x.className += " responsive";
+            // change topnav to topnav.responsive
+           }    else {
+               x.className = "topnav";
+           }         
+        }
+    </script>
+
+</body>
+
+</html>
+    
+
+
+
+
+
+    
